@@ -1,5 +1,10 @@
 ---
 # tasks file for hello-world
-- name: Debug Hello-world
-  debug:
-    msg: "Hello {{ hello_world_msg }}"
+#- name: Debug Hello-world
+#  debug:
+#    msg: "Hello {{ hello_world_msg }}"
+
+- name: Install Nginx
+  apt:
+    name: nginx
+    state: present
