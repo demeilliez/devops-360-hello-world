@@ -1,0 +1,4 @@
+- name: Hello-world
+  hosts: ubuntu
+  roles:
+    - Hello-world
