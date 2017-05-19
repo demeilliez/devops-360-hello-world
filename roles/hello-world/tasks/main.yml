@@ -19,5 +19,5 @@
 
 - name: Creates directory
   file: 
-    path: /opt/hello-world 
-    stat: directory
+    state: directory
+    path: "{{ hello_world_route }}"

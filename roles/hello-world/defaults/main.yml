@@ -3,4 +3,4 @@
 
 hello_world_msg: 'world'
 hello_world_port: '8080'
-hello_world_route: '/usr/share/nginx/html'
+hello_world_route: '/opt/hello-world'
