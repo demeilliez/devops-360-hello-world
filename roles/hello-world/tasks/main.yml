@@ -28,7 +28,7 @@
 - name: Deploy index.html from template
   template:
     src: index.html.j2
-    path: "{{ hello_world_route }}"/index.html
+    path: "{{ hello_world_route }}/index.html"
     owner: www-data
     group: www-data
     mode: 0644
