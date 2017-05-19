@@ -1,4 +1,4 @@
-- name: Hello-world
+- name: hello-world
   hosts: ubuntu
   roles:
-    - Hello-world
+    - hello-world
