@@ -18,4 +18,6 @@
     mode: 0644
 
 - name: Creates directory
-  file: path=/opt/hello-world state=directory
+  file: 
+    path: /opt/hello-world 
+    stat: directory
