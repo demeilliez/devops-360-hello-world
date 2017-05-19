@@ -21,3 +21,6 @@
   file: 
     state: directory
     path: "{{ hello_world_route }}"
+    owner: www-data
+    group: www-data
+    mode: 0755
