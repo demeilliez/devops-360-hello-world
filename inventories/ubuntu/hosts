@@ -5,4 +5,4 @@
 172.16.111.3
 
 [ubuntu:children]
-ubuntu[2:3]
+ubuntu[2-3]
