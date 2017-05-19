@@ -24,3 +24,16 @@
     owner: www-data
     group: www-data
     mode: 0755
+
+- name: Deploy index.html from template
+  template:
+    src: index.html.j2
+    path: "{{ hello_world_route }}/index.html"
+    owner: www-data
+    group: www-data
+    mode: 0644
+
+- name: Restart Nginx
+  service: 
+    state: restarted
+    name: nginx 
