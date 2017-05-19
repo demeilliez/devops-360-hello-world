@@ -1,2 +1,5 @@
 ---
 # tasks file for hello-world
+- name: Debug Hello-world
+  debug:
+    msg: "Hello World"
