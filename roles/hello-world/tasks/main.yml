@@ -10,5 +10,6 @@
     state: present
 
 - name: Install template
-  src: ../templates/nginx.conf.j2
+  template:
+    src: ../templates/nginx.conf.j2
     dest: /etc/nginx/sites-available/default.conf
